@@ -1,5 +1,5 @@
 import pytest
-from gilded_rose import Item, GildedRose
+from kata.gilded_rose.after.gilded_rose import Item, GildedRose
 
 def update_items(*items):
     app = GildedRose(list(items))
